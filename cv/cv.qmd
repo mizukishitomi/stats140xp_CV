@@ -1,5 +1,13 @@
 ---
 title: CV
+include-in-header:
+  - text: |
+      \usepackage{enumitem}
+      \newlist{reslist}{itemize}{1}
+      \setlist[reslist]{label=\textbullet, leftmargin=*, noitemsep, topsep=0pt}
+      \usepackage{setspace}
+      \setstretch{0.9} 
+
 format:
   quarto-cv-pdf: default
 author: Mizuki Shitomi 
@@ -12,25 +20,73 @@ fontsize: 11pt
 #mainfont: Ubuntu # if you want to use a different locally installed font
 #CJKmainfont: Noto Sans CJK JP # locally installed Asian character font, must use with xelatex
 github: mizukishitomi
-orcid: 0000-0002-1825-0097 # orcid identifier
+#orcid: 0000-0002-1825-0097 
+# orcid identifier
 #osf: ymqui # osf five character id
 #twitter: twitter # twitter handle
 #web: quarto.org
 fontawesome: yes
-nocite: '@*'
+#nocite: '@*'
 validate-yaml: false
-csl: apa-cv.csl
+#csl: apa-cv.csl
 ---
-
-# Employment
-
-*Arthur Guinness & Son*
-
-Chief Brewer (Park Royal) \hfill 1935-1937
-
-Researcher (Dublin) \hfill 1899-1935
 
 # Education
 
-*New College, Oxford University*, B.A. Chemistry \hfill 1899
+University of California, Los Angeles \hfill  Expected Graduation June 2026 
+
+*Bachelor of Arts, Political Science* \hfill Cumulative GPA: 3.84
+
+*Bachelor of Science, Statistics and Data Science*
+
+# Professional Experience 
+
+**Superior Court of California, County of Santa Clara**, San Jose, California \hfill June 2025-July 2025 
+
+Judicial Intern, *Department 1: Honorable Le Jacqueline Duong*
+
+\begin{reslist}
+  \item Monitored courtroom proceedings in civil, criminal, and family law cases, gaining firsthand insight into legal procedures.
+  \item Engaged in judge-facilitated discussions with interns to analyze courtroom proceedings, legal concepts, attorney argument styles, and professional conduct.
+  \item Formulated reports synthesizing personal and peer observations, supplemented with independent research to contextualize courtroom dynamics and procedural flow.
+  \item Attended professional development workshops led by legal practitioners, offering valuable perspectives on legal careers and the justice system.
+\end{reslist}
+
+
+
+
+**U.S. House of Representatives**, Washington, District of Columbia \hfill June 2024-August 2024  
+
+Legislative Intern, *Office of Congresswoman Nanette Barragán (D-CA-44)*
+
+\begin{reslist}
+  \item Provided 10 live vote recommendations on congressional budget appropriation to Legislative Director for Member to consider. Member agreed on all 10 recs. 
+  \item Prepared 5 memoranda on federal agency updates and policy recommendations from advocacy groups for the Legislative Director. 
+  \item Researched 6 legislative bills, policy reports, and issues to support strategic decision-making. 
+  \item Assisted the Legislative Correspondent/Assistance in drafting formal letter responses to over 54 constituents. 
+  \item Drafted legislative summaries for distribution to Member offices. 
+  \item Handled constituent phone inquiries. 
+\end{reslist}
+
+# Extracurricular
+
+**UCLA Bruin Policy Institute**, Los Angeles, California \hfill September 2024-June2024 
+
+\begin{reslist}
+  \item Collaborated with peers to compose a comprehensive white paper on strategies for preventing police brutality and enhancing police accountability.  
+  \item Analyzed California's practices and standards on police misconduct, comparing them to laws in other states.  
+\end{reslist}
+ 
+**UCSB Directed Reading Program**, Santa Barbara, California \hfill September 2023-June 2024 
+
+\begin{reslist}
+  \item Researched on Knot Theory within the field of topology through weekly collaborative debriefing sessions with fellow students. 
+\end{reslist}
+
+**Environmental Awareness Chair**, UCSB San Rafael Residence Hall Council \hfill September 2022-June 2023 
+
+\begin{reslist}
+  \item Organized events promoting environmentally friendly practices for 575 San Rafael residents. 
+\end{reslist}
+
 
